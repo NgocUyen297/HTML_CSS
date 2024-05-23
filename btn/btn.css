@@ -1,0 +1,71 @@
+.container{
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.btn{
+    /* Cho nó mất đi thuộc tính block để có thể nằm trên 1 dòng */
+    display: inline-block;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color:white;
+    padding:12px 48px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: opacity 0.2 ease;
+    min-width: 90px;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+/* btn nằm sau nằm sau btn thì sẽ có thuộc tính này */
+.btn + .btn{
+    margin-left: 16px;
+}
+.btn--success{
+background-color: green;
+}
+
+
+.btn--warn{
+    
+background-color: rgb(182, 182, 94);
+
+}
+
+.btn--danger{
+background-color: red;
+
+}
+
+.btn--info{
+    background-color: rgb(84, 84, 173);
+ }
+
+.btn-disabled{
+    opacity: 0.5  !important;
+    cursor: default;
+
+}
+
+.btn-size-s{
+    padding:12px 48px;
+}
+
+.btn-size-m{
+    padding:16px 54px;
+}
+
+
+.btn-size-l{
+    padding:18px 60px;
+}
+
