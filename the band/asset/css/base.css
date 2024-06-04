@@ -1,0 +1,50 @@
+/* Reset css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+#main{
+    background-color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Để không cần sử dụng class clear */
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.col{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-haft{
+    width: 50%;
+}
+
+.col-full{
+    width: 100%;
+}
+
+.mt-8{
+    margin-top: 8px !important;
+}
+
+.mt-16{
+    margin-top: 16px !important;
+}
+

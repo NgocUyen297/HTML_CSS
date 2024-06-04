@@ -1,0 +1,105 @@
+/* pc */
+
+@media (min-width: 64em) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+/* Mobile and tablet */
+/* Mobile */
+@media (max-width: 64.0625em) {
+  .social-list a{
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 18px;
+  }
+
+  .footer-msg a {
+    color: rgb(102, 102, 102);
+    font-size: 20px;
+}
+}
+
+/* Tablet */
+  @media (max-width: 64em) and (min-width: 46.3125em) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+/* Mobile */
+  @media (max-width: 46.25em) {
+    .s-full-width{
+      width: 100% !important;
+    }
+    #header{
+      overflow: hidden;
+  }
+  
+    .navbar{
+        display: block;
+        width: 100%;
+    }
+    .navbar-search{
+        display: none;
+    }
+
+    .mobile-navbar-search{
+        display: block;
+    }
+
+    .navbar-item{
+      width: calc(100% + 54px);
+    }
+
+    .navbar-link{
+      display: block;
+      width: 100%;
+    }
+
+    .navbar-more:hover{
+      padding: 0;
+    }
+
+    .navbar-more:hover .navbar-more__text{
+      padding: 18px 30px;
+      background-color: #ccc;
+    }
+
+    .navbar-more__list{
+      position: initial;
+      background-color: rgb(71,71,71);
+      color: white;
+    }
+
+    .navbar-more__list-item {
+      padding: 20px 80px 20px 44px;
+    }
+
+    #content .member-item{
+      float: initial;
+      width: 100%;
+      margin-top: 38px;
+    }
+
+    #content .member-img{
+      width: 60%;
+    }
+
+    .place-item {
+      float: initial;
+      width: 100%;
+      padding: 0 8px;
+  }
+
+  .s-col-full{
+    float: initial;
+    width: 100%;
+  }
+  
+  .s-mt-16{
+    margin-top: 16px !important;
+  }
+
+  }
